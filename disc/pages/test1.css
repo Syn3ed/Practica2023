@@ -1,0 +1,77 @@
+.test-page {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .questions {
+    flex: 1;
+    margin-bottom: 20px;
+  }
+  
+  .buttons,
+  .buttons2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .button,
+  .button2,
+  .buttonStart,
+  .buttonNext {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 4%;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .extra-buttons {
+    margin-top: 20px;
+  }
+  
+  .extra-buttons .button {
+    margin-right: 10px;
+  }
+  
+  .button:disabled,
+  .button2:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  .button.selected {
+    background-color: red;
+  }
+  
+  .button2.selected2 {
+    background-color: red;
+  }

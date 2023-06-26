@@ -1,0 +1,31 @@
+p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 00;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.DISK {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.start_test {
+
+}
